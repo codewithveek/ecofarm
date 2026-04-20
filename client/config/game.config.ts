@@ -16,5 +16,5 @@ export {
 export const API_URLS = {
   BACKEND: import.meta.env?.VITE_BACKEND_URL || "http://localhost:4000",
   OPEN_METEO: "https://api.open-meteo.com/v1/forecast",
-  OPENAQ: "https://api.openaq.org/v2/latest",
+  OPENAQ: "https://api.openaq.org/v3/latest",
 } as const;

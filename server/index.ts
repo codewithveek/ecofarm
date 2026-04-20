@@ -21,6 +21,9 @@ const jwtCheck = auth({
   tokenSigningAlg: "RS256",
 });
 
+app.use("/", (req, res) => {
+  res.send("EcoFarm API is running");
+});
 app.use("/api", jwtCheck);
 
 app.use("/api/farm", farmRouter);

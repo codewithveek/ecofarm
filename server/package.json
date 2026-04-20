@@ -4,7 +4,7 @@
   "description": "EcoFarm — Earth Day gamified farm with AI agents",
   "type": "module",
   "scripts": {
-    "dev": "tsx index.ts",
+    "dev": "tsx --watch index.ts",
     "build": "tsx build",
     "server": "tsx server/index.ts",
     "dev:all": "concurrently \"npm run dev\" \"npm run server\""
