@@ -1,0 +1,140 @@
+{
+  "compressionlevel": -1,
+  "height": 6,
+  "infinite": false,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Ground",
+      "type": "tilelayer",
+      "visible": true,
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "data": [
+        1,  1,  1,  1,  1,  1,  1,  1,
+        1,  2,  2,  1,  1,  2,  2,  1,
+        1,  2,  2,  1,  1,  2,  2,  1,
+        1,  2,  2,  1,  1,  2,  2,  1,
+        1,  2,  2,  1,  1,  2,  2,  1,
+        1,  1,  1,  1,  1,  1,  1,  1
+      ],
+      "properties": []
+    },
+    {
+      "id": 2,
+      "name": "Paths",
+      "type": "tilelayer",
+      "visible": true,
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "data": [
+        0,  0,  0, 11,  11,  0,  0,  0,
+        0,  0,  0, 11,  11,  0,  0,  0,
+        0,  0,  0, 11,  11,  0,  0,  0,
+        0,  0,  0, 11,  11,  0,  0,  0,
+        0,  0,  0, 11,  11,  0,  0,  0,
+        11, 11, 11, 11,  11, 11, 11, 11
+      ],
+      "properties": []
+    },
+    {
+      "id": 3,
+      "name": "Decor",
+      "type": "tilelayer",
+      "visible": true,
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 6,
+      "data": [
+        21, 0,  0,  0,  0,  0,  0, 22,
+        0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0,  0,  0,  0,  0,
+        23, 0,  0,  0,  0,  0,  0, 24
+      ],
+      "properties": []
+    },
+    {
+      "id": 4,
+      "name": "Plots",
+      "type": "objectgroup",
+      "visible": true,
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        { "id": 1,  "name": "plot_00", "type": "plot", "x": 64,  "y": 64,  "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":1},{"name":"row","type":"int","value":1}] },
+        { "id": 2,  "name": "plot_10", "type": "plot", "x": 128, "y": 64,  "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":2},{"name":"row","type":"int","value":1}] },
+        { "id": 3,  "name": "plot_20", "type": "plot", "x": 64,  "y": 128, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":1},{"name":"row","type":"int","value":2}] },
+        { "id": 4,  "name": "plot_30", "type": "plot", "x": 128, "y": 128, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":2},{"name":"row","type":"int","value":2}] },
+        { "id": 5,  "name": "plot_40", "type": "plot", "x": 64,  "y": 192, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":1},{"name":"row","type":"int","value":3}] },
+        { "id": 6,  "name": "plot_50", "type": "plot", "x": 128, "y": 192, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":2},{"name":"row","type":"int","value":3}] },
+        { "id": 7,  "name": "plot_60", "type": "plot", "x": 64,  "y": 256, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":1},{"name":"row","type":"int","value":4}] },
+        { "id": 8,  "name": "plot_70", "type": "plot", "x": 128, "y": 256, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":2},{"name":"row","type":"int","value":4}] },
+        { "id": 9,  "name": "plot_01", "type": "plot", "x": 320, "y": 64,  "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":5},{"name":"row","type":"int","value":1}] },
+        { "id": 10, "name": "plot_11", "type": "plot", "x": 384, "y": 64,  "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":6},{"name":"row","type":"int","value":1}] },
+        { "id": 11, "name": "plot_21", "type": "plot", "x": 320, "y": 128, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":5},{"name":"row","type":"int","value":2}] },
+        { "id": 12, "name": "plot_31", "type": "plot", "x": 384, "y": 128, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":6},{"name":"row","type":"int","value":2}] },
+        { "id": 13, "name": "plot_41", "type": "plot", "x": 320, "y": 192, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":5},{"name":"row","type":"int","value":3}] },
+        { "id": 14, "name": "plot_51", "type": "plot", "x": 384, "y": 192, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":6},{"name":"row","type":"int","value":3}] },
+        { "id": 15, "name": "plot_61", "type": "plot", "x": 320, "y": 256, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":5},{"name":"row","type":"int","value":4}] },
+        { "id": 16, "name": "plot_71", "type": "plot", "x": 384, "y": 256, "width": 64, "height": 64, "properties": [{"name":"col","type":"int","value":6},{"name":"row","type":"int","value":4}] }
+      ],
+      "properties": []
+    },
+    {
+      "id": 5,
+      "name": "Collision",
+      "type": "objectgroup",
+      "visible": false,
+      "opacity": 1,
+      "x": 0,
+      "y": 0,
+      "draworder": "topdown",
+      "objects": [
+        { "id": 100, "name": "border_top",    "type": "", "x": 0,   "y": 0,   "width": 512, "height": 8  },
+        { "id": 101, "name": "border_bottom", "type": "", "x": 0,   "y": 376, "width": 512, "height": 8  },
+        { "id": 102, "name": "border_left",   "type": "", "x": 0,   "y": 0,   "width": 8,   "height": 384 },
+        { "id": 103, "name": "border_right",  "type": "", "x": 504, "y": 0,   "width": 8,   "height": 384 }
+      ],
+      "properties": []
+    }
+  ],
+  "nextlayerid": 6,
+  "nextobjectid": 200,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.10.2",
+  "tileheight": 64,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "source": "terrain.tsj"
+    },
+    {
+      "firstgid": 20,
+      "source": "decor.tsj"
+    }
+  ],
+  "tilewidth": 64,
+  "type": "map",
+  "version": "1.10",
+  "width": 8,
+  "height": 6,
+  "properties": [
+    { "name": "farmCols",  "type": "int",    "value": 8   },
+    { "name": "farmRows",  "type": "int",    "value": 6   },
+    { "name": "tileSize",  "type": "int",    "value": 64  },
+    { "name": "mapName",   "type": "string", "value": "farm" }
+  ]
+}

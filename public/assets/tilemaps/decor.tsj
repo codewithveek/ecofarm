@@ -1,0 +1,97 @@
+{
+  "columns": 4,
+  "firstgid": 20,
+  "image": "../tilesets/decor.png",
+  "imageheight": 128,
+  "imagewidth": 256,
+  "margin": 0,
+  "name": "decor",
+  "spacing": 0,
+  "tilecount": 8,
+  "tiledversion": "1.10.2",
+  "tileheight": 64,
+  "tilewidth": 64,
+  "type": "tileset",
+  "version": "1.10",
+  "tiles": [
+    {
+      "id": 0,
+      "type": "fence_post_tl",
+      "properties": [
+        { "name": "walkable",  "type": "bool", "value": false },
+        { "name": "decorType", "type": "string", "value": "fence" }
+      ],
+      "objectgroup": {
+        "draworder": "index",
+        "id": 1,
+        "name": "",
+        "objects": [
+          { "height": 48, "id": 1, "name": "", "rotation": 0, "type": "", "visible": true, "width": 48, "x": 8, "y": 8 }
+        ],
+        "opacity": 1,
+        "type": "objectgroup",
+        "visible": true,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 1,
+      "type": "fence_post_tr",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": false },
+        { "name": "decorType", "type": "string", "value": "fence" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "well",
+      "properties": [
+        { "name": "walkable",    "type": "bool",   "value": false },
+        { "name": "decorType",   "type": "string", "value": "well" },
+        { "name": "interactive", "type": "bool",   "value": true  },
+        { "name": "waterRefill", "type": "bool",   "value": true  }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "scarecrow",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": false },
+        { "name": "decorType", "type": "string", "value": "scarecrow" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "fence_post_bl",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": false },
+        { "name": "decorType", "type": "string", "value": "fence" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "fence_post_br",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": false },
+        { "name": "decorType", "type": "string", "value": "fence" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "flower_patch",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": true  },
+        { "name": "decorType", "type": "string", "value": "flower" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "rock_cluster",
+      "properties": [
+        { "name": "walkable",  "type": "bool",   "value": false },
+        { "name": "decorType", "type": "string", "value": "rock" }
+      ]
+    }
+  ]
+}

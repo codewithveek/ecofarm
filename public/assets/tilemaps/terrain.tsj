@@ -1,0 +1,115 @@
+{
+  "columns": 4,
+  "firstgid": 1,
+  "image": "../tilesets/terrain.png",
+  "imageheight": 192,
+  "imagewidth": 256,
+  "margin": 0,
+  "name": "terrain",
+  "spacing": 0,
+  "tilecount": 12,
+  "tiledversion": "1.10.2",
+  "tileheight": 64,
+  "tilewidth": 64,
+  "type": "tileset",
+  "version": "1.10",
+  "tiles": [
+    {
+      "id": 0,
+      "type": "grass",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "dirt_plot",
+      "properties": [
+        { "name": "walkable",    "type": "bool",   "value": true  },
+        { "name": "surfaceTag",  "type": "string", "value": "plot" },
+        { "name": "plantable",   "type": "bool",   "value": true  }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "grass_dark",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass_dark" }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "grass_corner_tl",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "grass_edge_top",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "grass_corner_tr",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "grass_edge_left",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "grass_edge_right",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "grass_corner_bl",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "grass_edge_bottom",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "grass_corner_br",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "grass" }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "path_stone",
+      "properties": [
+        { "name": "walkable",   "type": "bool",   "value": true  },
+        { "name": "surfaceTag", "type": "string", "value": "path" }
+      ]
+    }
+  ]
+}

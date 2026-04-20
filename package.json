@@ -1,0 +1,22 @@
+{
+  "name": "ecofarm",
+  "version": "0.1.0",
+  "description": "EcoFarm — Earth Day gamified farm with AI agents",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+  },
+  "dependencies": {
+    "phaser": "^4.0.0",
+    "@auth0/auth0-spa-js": "^2.1.0",
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "concurrently": "^8.0.0"
+  }
+}
